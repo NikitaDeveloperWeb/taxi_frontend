@@ -1,0 +1,11 @@
+@import './base/normalize', './base/theme';
+@import './components/button', './components/field', './components/form',
+  './components/modal', './components/navigation', './components/order',
+  './components/worker', './components/select', './components/stepper',
+  './components/confirm', './components/statistic';
+@import './pages/login', './pages/home', './pages/statisticPage',
+  './pages/sortOrders';
+.app {
+  width: 100%;
+  height: 100%;
+}

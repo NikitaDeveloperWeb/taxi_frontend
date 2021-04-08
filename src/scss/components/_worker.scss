@@ -1,0 +1,70 @@
+.worker {
+  background: var(--color-container-bg);
+  width: 400px;
+  border: 1px solid var(--color--music);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 2px var(--color-shadow),
+    0 1px 1px var(--color-shadow-second);
+  text-align: center;
+  &__name {
+    background: inherit;
+  }
+  &__documents {
+    background: inherit;
+    ul {
+      background: inherit;
+      li {
+        border-radius: 10px;
+        background: inherit;
+        color: var(--color-border-field-focus);
+        p {
+          border-radius: 10px;
+          background: inherit;
+        }
+        &:hover {
+          background: var(--color--music);
+        }
+      }
+    }
+  }
+  &__pult {
+    width: 100%;
+    background: inherit;
+    border-top: 1px solid var(--color--music-hover);
+    padding: 2px;
+    &__icon {
+      width: 100%;
+      background: inherit;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      div {
+        background: inherit;
+        span {
+          background: inherit;
+          svg {
+            font-size: 30px;
+            cursor: pointer;
+            background: var(--color-container-bg);
+            &:hover {
+              fill: var(--color-button-primary);
+              transition: 0.7s;
+            }
+          }
+        }
+      }
+      svg {
+        font-size: 30px;
+        cursor: pointer;
+        background: inherit;
+        &:hover {
+          fill: var(--color-button-primary);
+          transition: 0.7s;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.select__primory {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+  border-bottom: 1px solid var(--color-border-field);
+  select {
+    border: none;
+    width: 90%;
+    &:focus {
+      outline: 0;
+      outline-offset: 0;
+    }
+    &::placeholder {
+      font-size: 0;
+    }
+  }
+  transition: 0.7s;
+}
+.select__primory__focus {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+  border-bottom: 1px solid var(--color-border-field-focus);
+  select {
+    border: none;
+    width: 90%;
+  }
+  .icon {
+    svg {
+      fill: var(--color-border-field-focus);
+    }
+  }
+  transition: 0.7s;
+}

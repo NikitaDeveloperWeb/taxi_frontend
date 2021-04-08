@@ -1,0 +1,48 @@
+@import './theme';
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300&display=swap');
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  background-color: var(--color-bg);
+  color: var(--color-font);
+  letter-spacing: 3px;
+  font-family: 'Saira', sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+#root {
+  width: 100%;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: var(--color-link);
+  &:hover {
+    color: var(--color-button-primary-hover);
+  }
+  transition: 0.7s;
+}
+svg {
+  background: rgba(0, 0, 0, 0) !important;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+h1 {
+  font-size: 75px;
+  background-color: var(--color-none-opacity-bg);
+}
